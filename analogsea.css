@@ -8,18 +8,18 @@
 
 * {
 	background-color: lightblue;
-	position: center;
 }
 
 h1 {
   text-align: center;
+  background-color: white;
 }
 
 .aslog input {
   width: 320px;
   border: 2px;
   padding: 15px;
-  background: white;
+  background-color: #E5DFDE;
   display: block;
   margin-left: auto;
   margin-right: auto;
@@ -36,18 +36,32 @@ h1 {
   font-size: 30px;
 }
 
-body {
-	background-color: white;
-
-}
-
-.aslog label {
-
-}
-
-.aslog fieldset {
-}
 
 button:hover {
 	background-color: green;
+}
+
+section {
+	text-align: center;
+}
+
+p {
+	text-align: center;
+}
+
+fieldset {
+	background-color: white;
+	max-width: 320px;
+}
+
+.aslog label {
+	background-color: white;
+}
+
+section > a {
+	background-color: white;
+}
+
+section {
+	background-color: white;
 }

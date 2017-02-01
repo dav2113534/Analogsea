@@ -7,7 +7,8 @@
 }
 
 * {
-  background: #1E90FF;
+	background-color: lightblue;
+	position: center;
 }
 
 h1 {
@@ -19,10 +20,34 @@ h1 {
   border: 2px;
   padding: 15px;
   background: white;
+  display: block;
+  margin-left: auto;
+  margin-right: auto;
+
 }
 
 .aslog button {
   height: 55px;
   border: 2px;
   padding: 15px;
+  display: block;
+  margin: auto;
+  background-color: lightgreen;
+  font-size: 30px;
+}
+
+body {
+	background-color: white;
+
+}
+
+.aslog label {
+
+}
+
+.aslog fieldset {
+}
+
+button:hover {
+	background-color: green;
 }
